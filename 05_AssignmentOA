@@ -1,0 +1,35 @@
+function greaterNumber(num1, num2){
+
+    var greaterNum = num1>num2 ? num1 : num2 ;
+    console.log(`The "Greater" Numberamong ${num1} , ${num2} is: ${greaterNum}`);
+
+}greaterNumber(800,899);
+greaterNumber(10,-10)
+
+console.log("-------------------------");
+
+
+function isEvenOddNm(num){
+    var output = num%2 == 0 ? "True" : "False" ;
+    return output;
+}
+console.log(`Number "24" is Even: ${isEvenOddNm(24)}`);
+console.log(`Number "45"is Even: ${isEvenOddNm(45)}`);
+console.log(`Number "0"is Even: ${isEvenOddNm(0)}`);
+console.log(`Number "101"is Even: ${isEvenOddNm(101)}`);
+
+
+console.log("------------------------");
+
+function wordLength(word){
+    var wordLength = word.length;
+    var result = wordLength%2==0 ? "EVEN" : "ODD";
+    return result;
+ }
+ var result = wordLength("JavaScript");
+ console.log(`Word "JavaScript" has ${result} length` );
+
+ // var result = wordLength("Google");
+ console.log(`Word "Google" has ${wordLength("Google Chrome")} length` );   //advance substotute method
+
+ console.log(`Word "Developer" has ${wordLength("Developer")} length `);

@@ -25,6 +25,7 @@ function stringHandsOn() {
     console.log("the first character after trim is: ",charFirst);
     var charLast = lengthTrim.charAt(lengthTrim.length-1);
     console.log("the last character after trim is: ",charLast);
+    // String = "   Hey you are doing good, keep it up  ";
 
     console.log("---6---------------------------");
     var wordTotal = lengthTrim.split(" ");
@@ -37,11 +38,11 @@ function stringHandsOn() {
     console.log("---8---------------------------");
     var subStr = String.substring(22);
     console.log("substring is: ",subStr);   // substring index of 22
-    
 
+    // String = "   Hey you are doing good, keep it up  ";
     console.log("---9---------------------------");
     var s = String.slice(22);
-    console.log("slice: ",s);   //slice index of 22 
+    console.log("slice: ",s);   //slice index of 22   // ood, keep it up  
 
 
     console.log("---10---------------------------");
@@ -75,15 +76,20 @@ console.log("**Step2**");
   console.log("**Step6**");
    var d = b.split(" ");
    console.log("Totalwords are after step 3 is:  ",d.length);//totalWords avil_after_step3.
+  
    console.log("**Step7**");
    var e = a.indexOf('good')
    console.log("The index of good are:"   ,e);//index word of string good.
+  
    console.log("**Step8**");
     var f = a .substring(22);
     console.log("Using Substring:"  ,f);//substring index of 22.
+  
     console.log("**Step9**");
  var g = a.slice(22);
  console.log("Using Slice:"  ,g);// slice index of 22.
+
+
  console.log("**Step10**");
    var h = b.endsWith('up');
    console.log(" ends with up is:  "  ,h);// ends with 'up'.
