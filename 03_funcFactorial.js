@@ -1,3 +1,4 @@
+
 function factorialOfNum(num){
     var factorial = 1;
     if(num == 0 || num == null || num == undefined ){
@@ -24,7 +25,9 @@ function factorialOfNum(num){
  var result = factorialOfNum(0);
  console.log(`The Factorial Of "0" is :${result}`);
 
- console.log("--------------------------");
+
+
+ console.log("-----------------------------------------------------------------------------");
 
 
  function factorialofWordsCount(str) {

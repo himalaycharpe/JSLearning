@@ -30,14 +30,14 @@ for(let i=100; i>=10; i=i-10){
 }
 
 
-/*
+
 function abhi(tableOf, lastLimit){
 
     for (let i=tableOf; i<=lastLimit; i=i+2) {
-        console.log(`table of ${tableOf} : ${i}`);
+        console.log(`table of -- ${tableOf} : ${i}`);
     }
 }
 abhi(2, 20);
 abhi(7, 70);
-*/
+
 

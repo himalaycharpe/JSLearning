@@ -1,10 +1,9 @@
-console.log("-----1-------------");
+console.log("------------------1---------------------------------------------------------------------");
 
 function voteEligibility(age) {
     if (age <= 0 || age > 110 || (typeof age != "number") || age == null || age == undefined) {
         console.log(`Please provide the valid Age  - ${age}`);
     }
-
     if (age >= 18 && age<=110) {
         console.log(`As per yor Age ${age}: Your are Eligible for Vote`);
     }

@@ -1,3 +1,4 @@
+
 function maleMarriageEligibility(gender, age, boyName) {
     if (gender == "Male" && age >= 21) {
         var str = `Hey ${boyName} you are eligible for marriage`;

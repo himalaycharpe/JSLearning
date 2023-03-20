@@ -6,12 +6,12 @@ console.log("after defining ");
 bankName = "SBI Bank";
 console.log("Bank Name :",bankName, "| type :",typeof bankName,);
 
-console.log("---------------");
+console.log("-------------------------------------------------------");
 
 var marks = "90";
 console.log("value :",marks,"| type :",typeof marks);
 
-console.log("----------------");
+console.log("--------------------------------------------------------");
 
 var isWorking;
 console.log("before initialize");
@@ -20,7 +20,7 @@ var isWorking = true;
 console.log("after initialize");
 console.log("type :",typeof isWorking);
 
-console.log("----------------");
+console.log("--------------------------------------------------------");
 
 var totalCount = "Hundred and Seven"
 console.log("value :",totalCount, "| type :",typeof totalCount);

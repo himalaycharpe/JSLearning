@@ -1,14 +1,15 @@
 console.log("-------------------------------------------step-1--------------------------------------------");
 const arrayNums = [20, 3, 4, 56, 90, 400, 49];
 console.log(`Given Array: ${arrayNums}`);
- const newArray = arrayNums;
+ const newArray = arrayNums;   //shallow cloning 
  newArray.push(55, 66);
  console.log(`Shallow Clone: ${newArray}`);
 
  console.log("-------------------------------------------step-2-----------------------------------------");
-  const cloneArray = [...arrayNums]
+  const cloneArray = [...arrayNums] 
   cloneArray.push(10, 25);
   console.log(`Deep clone using spread operator: ${cloneArray}`);
+  
 
   const arrayEven = [,2, 30, 14, 8];
   const clonedArray = [...arrayEven]
@@ -44,7 +45,7 @@ console.log(`Given Array: ${arrayNums}`);
   console.log("------------------------------------------------step-6------------------------------------------------");
   
   const newSalary = JSON.parse(JSON.stringify(employee_info));
-  newSalary.Salary.july_month = "80k";
+  newSalary.Salary.july_month = "80000";
   console.log(`Original Value: ${employee_info.Salary.july_month}`);
   console.log(`Updated Value: ${newSalary.Salary.july_month}`);
 

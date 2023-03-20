@@ -3,7 +3,6 @@ const bankSbi = {
     accountNo: 98765678967,
     ifscCode: "SBI654545",
     Branch: "State Bank Main Branch",
-    
 }
 const bankLocation ={
     street:"mahal Road Nagpur",
@@ -28,7 +27,6 @@ const bankDetail = {...bankSbi};
 console.log(`Clone Object1 & Object2 Using Spread Operator:step3--------------------------------------------------`);
 console.log(bankSbi, bankLocation);
 
-
 const sbiDetails = Object.assign({},bankSbi, bankLocation, rateOfInterest);
 console.log(`Merged Objects step1,step2,step4 in New Object:step5-------------------------------------------------`);
 console.table(sbiDetails);
@@ -38,6 +36,5 @@ console.table(sbiDetails);
     if (Object.hasOwnProperty.call(sbiDetails, key)) {
         const element = sbiDetails[key];
         console.log(`${key}: ${element}`);
-        
     }
   }

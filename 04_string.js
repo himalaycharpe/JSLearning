@@ -26,12 +26,12 @@ console.log("index of M is: ",indeOfM);
 console.log("index of character which is not available in string ",greet.indexOf('z'));
 console.log("index of o char: ",greet.indexOf('o'));
 console.log("index of o char using lastIndex(): ",greet.lastIndexOf('o'));
-console.log("------------------------------------");
+console.log("------------------------------------------------------------------------------");
 
 var replaceResult = greet.replace("Morning","Evening");
 console.log(replaceResult);
 console.log(greet);
-console.log("------------------------------------");
+console.log("----------------------------------------------------------------------------------");
 
 console.log("UPPER Case: ",replaceResult.toUpperCase());
 console.log("lower Case: ",replaceResult.toLowerCase());
@@ -43,15 +43,12 @@ console.log("Removing extra start and end spaces using trim(): ",myNameAfterTrim
 //find the total extra spacs removed from string - myName
 var count = myName.length - myNameAfterTrim.length;
 console.log(count);
-console.log("------------------------------------");
+console.log("----------------------------------------------------------------------------------------");
 
 console.log("includes()"); 
-console.log("Is substring Mor includes in the greet or not: ", 
-greet.includes("Mor")); 
-console.log("Is substring Afternoon includes in the greet or not: ", 
-greet.includes("Afternoon")); 
-console.log("Is substring o  includes in the greet or not: ", 
-greet.includes("o"))
+console.log("Is substring Mor includes in the greet or not: ", greet.includes("Mor")); 
+console.log("Is substring Afternoon includes in the greet or not: ", greet.includes("Afternoon")); 
+console.log("Is substring o  includes in the greet or not: ", greet.includes("o"))
 console.log("---------------------------------------");
 
 console.log("slice() method"); 
@@ -59,6 +56,8 @@ var sliceResult = greet.slice(5, 12);
 console.log(sliceResult); 
 console.log(greet.slice(2, 5))
 console.log("----------------------------------------");
+
+var greet = "Good Morning";
 
 console.log("split() method"); 
 var greet = "Good Morning"; 

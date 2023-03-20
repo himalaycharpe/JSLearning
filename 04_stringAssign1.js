@@ -11,12 +11,8 @@ function stringBasics() {
     console.log("total sum of hobby1 char: ",hobby2.length);
     console.log("total sum of hobby1 char: ",hobby3.length);
 
-
-    console.log("-------------------------------------------");
-
     var sum = hobby1.length + hobby2.length + hobby3.length;
     console.log("total sum of character available is: ",sum);
-
 }
 stringBasics();
 

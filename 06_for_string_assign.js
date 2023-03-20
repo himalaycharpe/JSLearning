@@ -21,7 +21,7 @@ console.log(`Total Number of Vowels Present in The String is: ${result}`);
 var result = vowelString(" Hard work and commitment is the key of success");
 console.log(`Total Number of Vowels Present in The String is: ${result}`);
 
-console.log("--------------------------");
+console.log("-----------------------------------------------------------------");
 
 
 function lastWordCharCount(str) {

@@ -10,7 +10,7 @@ var reverseString = function (str) {
 var result = reverseString("Do it anyhow");
 console.log(`Reverse String is: ${result}`);
 
-console.log("----------");
+console.log("---------------------------------------------------------------");
 
 var reverseStr = function (str) { // str = "Do it anyhow" 
     var reverse = ""; // wohyna 
@@ -26,7 +26,7 @@ var reverseStr = function (str) { // str = "Do it anyhow"
 var result = reverseStr("Do it anyhow");
 console.log(`Reverse last word : ${result}`);
 
-console.log("---------------");
+console.log("---------------------------------------------------------------------");
 
 // "I am Angular champ" 
 var str = "I am Angular champ";
