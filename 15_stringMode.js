@@ -16,6 +16,7 @@ const student = {
     age: 17,
     city: "PUNE"
 }
+
 student = null;
 // delete student; // Not allowed in strict mode
 

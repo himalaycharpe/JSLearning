@@ -7,7 +7,6 @@ var vowelString = function (str) {
         if (char == "a" || char == "e" || char == "o" || char == "i" || char == "u" || char == "A" || char == "E" || char == "O" || char == "I" || char == "U") {
             count = count + 1;
         }
-
     }
     return count;
 }
