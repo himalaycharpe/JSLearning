@@ -41,7 +41,7 @@ array_employess.forEach((element) => {
 console.log("sum of all employees sallary: ",sum);
 console.log("-------------------------------------------------------------------------------------------------");
 
-const avg = sum/7
+const avg = sum/array_employess.length;
 console.log("AVG Sallary ",avg);
 console.log("-------------------------------------------------------------------------------------------------");
 
@@ -50,8 +50,14 @@ array_employess.forEach(element => {
     if (element.emp_dept == "IT" || "HR") {
         if(element.emp_salary >= 75000){
             console.log(`Emp Id: ${element.emp_id}, Name: ${element.emp_name}, Department: ${element.emp_dept}, Salary: ${element.emp_salary}, Company: ${element.emp_company}`);
-
         }
     }
-   
 });
+console.log("--------or-----");
+array_employess.forEach(element => {
+    if ((element.emp_dept == "IT" || "HR") && element.emp_salary >= 75000) {
+            console.log(`Emp Id: ${element.emp_id}, Name: ${element.emp_name}, Department: ${element.emp_dept}, Salary: ${element.emp_salary}, Company: ${element.emp_company}`);
+        
+    }
+});
+
