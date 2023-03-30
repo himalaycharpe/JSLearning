@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div id="overview">
+            <h1 id="heading"> HTML and JavaScript are crucial technologies </h1>
+            <p> The web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li class="liItem"> Flexible</li>
+                <li class="liItem"> Available</li>
+                <li class="liItem"> Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        console.log(`~~~~~ Storing  the h1 Element ~~~~`);
+        const mainHeading = document.querySelector("#heading");
+        console.log(mainHeading.innerHTML);
+
+        console.log(`~~~~~ Storing  the Second Element of the List ~~~~~`);
+        const secondAdvantage = document.getElementsByClassName("liItem");
+        console.log(secondAdvantage[1].innerHTML);
+
+        console.log(`~~~~~ Storing  the div with Id="advantage" ~~~~~`);
+        const advDiv = document.querySelector("#advantages");
+        console.log(advDiv.innerHTML);
+    </script>
+</body>
+
+</html>
