@@ -1,4 +1,4 @@
-console.log("----- step 1 -----");
+console.log("----- step 1 ------------------------------------");
 var myFullName;    // before initialazation
 console.log(myFullName);
 
@@ -8,11 +8,11 @@ console.log(myFullName);
 var myFullName ="Himalay Chandrashekhar Charpe";
 console.log(myFullName);
 
-console.log("----- step 2 -----");
+console.log("----- step 2 --------------------------------------");
 var myLove ="i love javaScript";
 console.log(myLove);
 
-console.log("----- step 3 -----");
+console.log("----- step 3 ----------------------------------------");
 var firstName = "Himalay";
 console.log("First Name:",firstName);
 var lastName = "Charpe";
@@ -27,6 +27,7 @@ var gender = "Male";
 console.log("Gender:",gender);
 var isMarried = "No";
 console.log("Maretial Status:",isMarried);
+
 console.log("-------------------------");
 console.log("First_name:",firstName,    "Last_name:",lastName, "Address:",address);
 

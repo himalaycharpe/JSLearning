@@ -1,3 +1,4 @@
+
 var reverseString = function (str) {
     var reverse = ""; // wo 
 
@@ -36,5 +37,5 @@ for (let index = 0; index < str.length; index++) {
     if (char == " ") {
         count = count + 1;
     }
-}
+ }
 console.log("Total number of spaces is: ", count);

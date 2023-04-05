@@ -1,5 +1,5 @@
 //string
-console.log("-----String-----");
+console.log("-----String-----------------------------------");
 var name = "Himalay";
 console.log("Name:",name, "| type of  :",typeof name);
 

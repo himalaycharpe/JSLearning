@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div id="divProject">
+        <p id="project"> Cricket </p>
+        <p> Football </p>
+    </div>
+
+        <script>
+                console.log("====== Adding Hobbies =====");
+                const elementDiv = document.querySelector("#divProject");
+                const elementP = document.createElement("p");
+                const elementText = document.createTextNode("Bike Riding");
+                elementP.appendChild(elementText);
+                //  elementDiv.appendChild(elementP);
+
+         </script>
+</body>
+
+</html>

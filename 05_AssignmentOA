@@ -6,7 +6,7 @@ function greaterNumber(num1, num2){
 }greaterNumber(800,899);
 greaterNumber(10,-10)
 
-console.log("-------------------------");
+console.log("----------------------------------------------------------------------------------");
 
 
 function isEvenOddNm(num){
@@ -19,7 +19,7 @@ console.log(`Number "0"is Even: ${isEvenOddNm(0)}`);
 console.log(`Number "101"is Even: ${isEvenOddNm(101)}`);
 
 
-console.log("------------------------");
+console.log("--------------------------------------------------------------------------------------");
 
 function wordLength(word){
     var wordLength = word.length;

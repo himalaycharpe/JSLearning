@@ -6,7 +6,6 @@ function squareOfWordLength(args){
 
     var squareL = args.length**2
     return squareL;
-
 }
 var a = squareOfWordLength("javaScript");
 console.log(`square of length is: ${a}`);
@@ -17,7 +16,7 @@ console.log(`square of length is: ${b}`);
 var c = squareOfWordLength("Developer Smart");
 console.log(`square of length is: ${c}`);
 
-console.log("--------------------");
+console.log("-------------------------------------------------------------------------");
 
 function assignstack(){
     string = "i am Angular Developer"

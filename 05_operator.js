@@ -1,3 +1,4 @@
+
 console.log(`===== Arithmetic Operator =====`);
 var num1 = 10;
 var num2 = 2;
@@ -6,10 +7,10 @@ var result = num1 + num2;
 console.log(`Addition is:  ${result}`);
 
 result = num1 - num2; 
-console.log(`Subtraction is ${result}`); 
+console.log(`Subtraction is ${result}`);
 
 result = num1 * num2; 
-console.log(`Multiplication is ${result}`); 
+console.log(`Multiplication is ${result}`);
 
 result = num1 ** num2; 
 console.log(`Exponential is ${result}`);
