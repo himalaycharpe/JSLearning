@@ -26,3 +26,19 @@ function isPrime(num){
 primeNumbers(3, 10);
 primeNumbers(20, 10);
 primeNumbers(50, 15);
+
+console.log("----------------------------------------");
+
+let i,j;
+let count =0;
+
+for(i=2;i<=100;i++){
+    for(j=1;j<=i;j++){
+           if(i%j==0){
+            count++
+           }
+    }
+    if(count ==2)
+     console.log(i);
+     count=0;
+}

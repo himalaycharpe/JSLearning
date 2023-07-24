@@ -6,6 +6,7 @@ while (index<=10) { // condition
 }
 ///////////////////
 var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26 ];
+
 var index=0;
 while (index<arrayOfNumbers.length) {
     const element = arrayOfNumbers[index];

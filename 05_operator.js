@@ -70,3 +70,5 @@ function wordLength(word){
  }
   var result = maleMarriageEligibility("Male", 25, "Billgates");
   console.log(result);
+
+  

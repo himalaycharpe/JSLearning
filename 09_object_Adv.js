@@ -1,3 +1,4 @@
+
 const employee = {
     id: 124567,
     name: "Elon Musk",
@@ -9,14 +10,14 @@ console.log("-------im oerator------------");
 const isIdAvailable = "id" in employee;
 console.log(isIdAvailable);
 
-console.log("-------object traversing------------");
+console.log("------------------object traversing----------------------------------------------");
 for (const key in employee) {      //by using for in loop we traverse valuesb in a object 
     if (Object.hasOwnProperty.call(employee, key)) {
         const element = employee[key];
         console.log(key, element);
     }
 }
-const keysOfEmployee = Object.keys(employee);     //array form   output 
+const keysOfEmployee = Object.keys(employee);     //array form   output
 console.log(keysOfEmployee);
 
 const valuesOfEmployee = Object.values(employee);
@@ -27,7 +28,7 @@ console.log(entriesOfEmployee);
 console.log(entriesOfEmployee[0][0]);
 console.log(entriesOfEmployee[0][1]);
 
-console.log("-------------------");
+console.log("-------------------------------------------------------------------------------------");
 
 const player = {
     fullName: "Virat Kohli",

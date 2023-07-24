@@ -1,5 +1,5 @@
-console.log(myName);// Allowed to access
-// console.log(age); // Not allowed to access 
+console.log(myName);// Allowed to access  -var 
+// console.log(age); // Not allowed to access  -let
 var myName = "Virat Kohli";
 let age = 33;
 

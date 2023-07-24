@@ -36,7 +36,7 @@ console.log("Replace element Orange with Kiwi",arraySeasonalFruits);
 
 console.log("----7---------");
 console.log("Array is: ",arraySeasonalFruits);
-const subArray = arraySeasonalFruits.slice(1,4)
+const subArray = arraySeasonalFruits.slice(1,4);
 console.log("Element from 1 to 4th index",subArray);
 
 console.log("----8---------");

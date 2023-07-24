@@ -4,10 +4,6 @@
 
 //var keyword---having function scope means  access witin function not outside
 
-
-
-
-
 //let keyword --- having block scope..    not outside
 
 var firstName;  //Variable Declaration

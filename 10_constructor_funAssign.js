@@ -1,4 +1,5 @@
 console.log("---------------------------------------------------step-1---------------------------------------------------------------");
+
 function Bank(bankName, location, ifscCode, branchCode){
     this.bankName = bankName;
     this.location = location;
@@ -8,7 +9,6 @@ function Bank(bankName, location, ifscCode, branchCode){
         console.log(`Bank Name: ${this.bankName}, Location: ${this.location}, ifscCode: ${this.ifscCode}, BranchCode: ${this.branchCode}`);
     }
 }
-
 Bank.prototype.openTime = "9 AM IST";
 Bank.prototype.closeTime = "6 PM IST";
 

@@ -1,10 +1,9 @@
 
 var check_leap_year = function (leap_year) {
 
-    if ((typeof leap_year != "number") || (typeof leap_year != "number")|| leap_year == null  || leap_year == undefined || isNaN(leap_year)) {
+    if ((typeof leap_year != "number") || leap_year == null  || leap_year == undefined || isNaN(leap_year)) {
         console.log(`${leap_year} : please enter valid year number`);
     }
-
     else if (leap_year % 4 == 0) {
         console.log(`given year, ${leap_year} is a leap year`);
     } 

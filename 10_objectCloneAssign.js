@@ -52,4 +52,5 @@ console.log(`Given Array: ${arrayNums}`);
   const newCountry = JSON.parse(JSON.stringify(employee_info));
   newCountry.address.country = "United Kingdom";
   console.log(`Original value: ${employee_info.address.country}`);
-  console.log(`Updated value: ${newCountry.address.country}`)
+  console.log(`Updated value: ${newCountry.address.country}`);
+  

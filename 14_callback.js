@@ -11,14 +11,18 @@ function copyAssignment(){
 }
 doAssignment(copyAssignment);
 
+
+console.log("--------------------------------------------------------------------------------");
 function greet(){
-    console.log("Good Morning.....");
+    console.log("Good Morning.....");           //setTimeout method 
 }
 // 1 sec = 1000 milli seconds
 // 3 sec = 3000 ms
 setTimeout(greet, 4000);
 
 
+
+console.log("--------------------------------------------------------------------------------");
 function firstClass(){
     console.log("We can return function from another function");
     return function(){
@@ -30,6 +34,7 @@ const inner = firstClass();
 inner();
 
 
+console.log("_---------------------------------------------------------------------------------");
 function doHomerWork(callback){
     console.log("Doing homework.. ");
     console.log("Finally Homework is completed...");

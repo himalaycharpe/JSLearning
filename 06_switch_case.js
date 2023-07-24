@@ -1,3 +1,4 @@
+
 function weekDay(day) {
     switch (day) {
         case 1:

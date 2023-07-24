@@ -55,7 +55,7 @@ const subArray = arrayOfNumbers.slice(2, 5);
 console.log(subArray);
 
 
-console.log("============================");
+console.log("==========================================================================");
 var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
 console.log("==== splice(startIndex) === ");
 const splicedArray = arrayOfNumbers.splice(3);
@@ -70,7 +70,7 @@ const splicedArrayWithDeleteCount = arrayOfNumbers.splice(2, 2);
 console.log(`Removed elements using deleteCount is: ${splicedArrayWithDeleteCount}` );
 console.log(arrayOfNumbers);
 
-console.log("---------------");
+console.log("--------------------------------------------------------------------------");
 var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
 console.log(arrayOfNumbers.splice(3,1));
 console.log(arrayOfNumbers.splice(1,2));

@@ -53,7 +53,6 @@ elementAddress.addEventListener("click", ()=> {
     // alert("You have clicked on address");
     const inputValue = prompt("This is the title", "Default value");
     console.log(inputValue);
-
 });
 
 elementAddress.addEventListener("mouseover", () => {

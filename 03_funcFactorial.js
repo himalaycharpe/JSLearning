@@ -34,7 +34,7 @@ function factorialOfNum(num){
     if (str == 0 || str == null || str == "") {
         return `Please enter valid value`;
     }
-    var stringLength = str.split(" ");            
+    var stringLength = str.split(" "); 
     console.log(`Total number of word available in given string is : ${stringLength.length}`);
 
     var factorial = 1;
@@ -58,3 +58,6 @@ console.log(`The factorial of "" is:${result}`);
 
 var result = factorialofWordsCount(null);
 console.log(`The factorial of null is: ${result}`);
+
+
+

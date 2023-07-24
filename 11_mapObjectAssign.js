@@ -1,4 +1,5 @@
-console.log("------------------------------------------------Create Object using class Bank--------------------------------------------------");
+
+console.log("---------------------------Create Object using class Bank--------------------------------------------------");
 class Bank {
     constructor(bankName, location, accountNo, ifsc, interestRate ){
         this.bankName = bankName;

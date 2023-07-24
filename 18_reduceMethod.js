@@ -15,7 +15,7 @@ console.log(arrayEven);
 const sumEven = arrayEven.reduce((runningTotal, value) => {
     return runningTotal + value;
 });
-console.log(sumEven);
+console.log("e",sumEven);
 
 
 

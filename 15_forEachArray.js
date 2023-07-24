@@ -1,3 +1,4 @@
+
 const array1 = [2, 3, 4, 5, 9];
 array1.forEach(element => {
 });
@@ -29,7 +30,6 @@ array.forEach(element => {
         console.log(element);
     }
 });
-
 
 console.log("sum the array.....");
 let sum = 0;

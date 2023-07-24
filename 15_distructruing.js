@@ -12,7 +12,8 @@ let student = {
 // let age = student.age;
 // let collegeName = student.collegeName;
 // let id = student.id;
-let { firstName, isWorking, age, collegeName, id, city="PUNE"} = student; // Object Destructuring
+
+let { firstName, isWorking, age, collegeName, id, city="PUNE"} = student; //Object Destructuring
 console.log(`Extracted values from object is: isWorking ${isWorking}  age ${age}  collegeName ${collegeName}, City ${city} `);
 
 

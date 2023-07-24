@@ -80,9 +80,6 @@ for (let index = 0; index < arrayNumbers.length; index++) {
 }
 console.log(array);
 
-
-
-
 console.log("10. Is number 115 available in arrayNumbers ?");
 console.log(`The result is  : ${arrayNumbers.includes(115)}`);
 

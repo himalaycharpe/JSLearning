@@ -11,7 +11,6 @@ function outer() {
     }
     return inner;
 }
-
   const innerFun = outer();
   innerFun();
 //inner();

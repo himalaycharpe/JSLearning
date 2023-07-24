@@ -1,7 +1,7 @@
 const arrayNumbers = [20, 11, 40, 25, 23, 11, 9, 31, 60, 2, 19];
 console.log(`Array: `,arrayNumbers);
 
-const newArray = [];
+//const newArray = [];
     const arrayNew = arrayNumbers.map((element) =>{
      return element+10;
     });

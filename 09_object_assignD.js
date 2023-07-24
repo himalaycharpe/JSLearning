@@ -26,7 +26,7 @@ let professor = {
 
 console.log("---------1 Add Minimum 5 Properties-------------------------------");
 console.log(professor);
-
+                                                                              
 console.log("----------2 Nested Object For Degrees------------------------------");
 console.log(professor.degrees);
 

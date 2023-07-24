@@ -30,7 +30,7 @@ console.log(`Reverse last word : ${result}`);
 console.log("---------------------------------------------------------------------");
 
 // "I am Angular champ" 
-var str = "I am Angular champ";
+var str = "I am React champ";
 var count = 0;
 for (let index = 0; index < str.length; index++) {
     var char = str.charAt(index);
@@ -39,3 +39,5 @@ for (let index = 0; index < str.length; index++) {
     }
  }
 console.log("Total number of spaces is: ", count);
+
+
